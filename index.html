@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Lygina_7</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+      height: 100px;
+      width: 100px;
+      background-size: 100%, 100%;
+      background-image: none;
+    }
+
+    .carousel-control-next-icon:after {
+      content: '>';
+      font-size: 55px;
+      color: hotpink;
+    }
+
+    .carousel-control-prev-icon:after {
+      content: '<';
+      font-size: 55px;
+      color: hotpink;
+    }
+    </style>
+</head>
+
+<body>
+    <div class="p-5 text-center bg-dark text-white">
+        <h1>Музыкальным инструментам посвящается</h1>
+    </div>
+    <nav class="navbar navbar-expand-sm bg-info">
+        <div class="container-fluid justify-content-center">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active text-dark" href="#str">Струнные</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark" href="#duh">Духовые</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark" href="#udr">Ударные</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div id="str" class="container mt-5">
+        <div class="row">
+            <div class="p-2 text-center bg-white text-dark">
+                <h1>Струнные музыкальные инструменты</h1>
+                <p>Струнный музыкальный инструмент — это музыкальный инструмент, в котором источником звука (вибратором) являются колебания струн. Типичными представителями струнных инструментов являются классические скрипка, виолончель, альт, контрабас, арфа и гитара, а также множество самых разных народных инструментов: комуз, хомус, кылкыяк, кобыз, домбыра, гусли, балалайка, домра и другие.</p>
+            </div>
+            <table class="table table-borderless">
+                <thead>
+                    <tr>
+                        <th>Щипковые струнные</th>
+                        <th>Смычковые струнные</th>
+                    </tr>
+                </thead>
+                <tbody text-left>
+                    <tr>
+                        <td>К струнным щипковым относятся арфа, балалайка, домра, уд, гусли, гитара, лютня, бузуки, мандолина, ситар и подобные им.</td>
+                        <td>К струнным смычковым относятся такие оркестровые инструменты как скрипка, альт, виолончель, контрабас, а также виола да гамба, виола д'амур, баритон, шведский народный инструмент никельхарпа и норвежская традиционная скрипка хардингфеле.</td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="col-sm-5">
+                <h2>Некоторые представители струнных</h2>
+                <div id="accordion">
+                    <div class="card">
+                        <div class="card-header">
+                            <a class="btn" data-bs-toggle="collapse" href="#collapseOne">
+                                Скрипка
+                            </a>
+                        </div>
+                        <div id="collapseOne" class="collapse show" data-bs-parent="#accordion">
+                            <div class="card-body">
+                                смычковый музыкальный инструмент с четырьмя струнами, настроенными по квинтам: Gм D1 A1 E2.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header">
+                            <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseTwo">
+                                Виолончель
+                            </a>
+                        </div>
+                        <div id="collapseTwo" class="collapse" data-bs-parent="#accordion">
+                            <div class="card-body">
+                                смычковый музыкальный инструмент с 4-мя струнами, настроенными по квинтам: Cб Gб Dм Aм. По высоте звучания занимает промежуточное положение между более высоким альтом и низким контрабасом.
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header">
+                                <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseThree">
+                                    Альт
+                                </a>
+                            </div>
+                            <div id="collapseThree" class="collapse" data-bs-parent="#accordion">
+                                <div class="card-body">
+                                    смычковый музыкальный инструмент с 4-мя струнами, настроенными по квинтам: Cм Gм D1 A1. По высоте звучания занимает промежуточное положение между высокой скрипкой и более низкой виолончелью.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header">
+                                <a class="btn" data-bs-toggle="collapse" href="#collapseFour">
+                                    Контрабас
+                                </a>
+                            </div>
+                            <div id="collapseFour" class="collapse" data-bs-parent="#accordion">
+                                <div class="card-body">
+                                    смычковый музыкальный инструмент с 4-мя струнами, настроенными по квартам: Eк Aк Dб Gб. Самый низкий по звучанию инструмент скрипичного семейства после виолончели, альта и скрипки.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header">
+                                <a class="btn" data-bs-toggle="collapse" href="#collapseFive">
+                                    Арфа
+                                </a>
+                            </div>
+                            <div id="collapseFive" class="collapse" data-bs-parent="#accordion">
+                                <div class="card-body">
+                                    струнный щипковый музыкальный инструмент, состоит из двух расположенных под углом рам, между которыми натянуто множество струн. Один из древнейших инструментов, символ Ирландии. В XVIII столетии была изобретена педальная арфа, ставшая стандартом в классической музыке.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header">
+                                <a class="btn" data-bs-toggle="collapse" href="#collapseSix">
+                                    Гитара
+                                </a>
+                            </div>
+                            <div id="collapseSix" class="collapse" data-bs-parent="#accordion">
+                                <div class="card-body">
+                                    струнный щипковый музыкальный инструмент. Применяется в качестве аккомпанирующего или сольного инструмента во многих стилях и направлениях музыки, среди которых романс, блюз, кантри, фламенко, рок, джаз. Изобретённая в XX веке электрическая гитара произвела значительные изменения в музыке и тем самым оказала сильное влияние на массовую культуру. Также есть классическая гитара, гитара фламенко, испанская гитара и некоторые другие виды.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-7 mt-5">
+                <!-- Carousel -->
+                <div id="demo" class="carousel slide" data-bs-ride="carousel">
+                    <!-- Indicators/dots -->
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                        <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                        <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+                    </div>
+                    <!-- The slideshow/carousel -->
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="img/1.jpeg" alt="Los Angeles" class="d-block" style="width:100%">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/2.jfif" alt="Chicago" class="d-block" style="width:100%">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/3.jpg" alt="New York" class="d-block" style="width:100%">
+                        </div>
+                    </div>
+                    <!-- Left and right controls/icons -->
+                    <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="container mt-3">
+            <ul class="breadcrumb">
+                <li class="breadcrumb-item active">Струнные</li>
+                <li class="breadcrumb-item"><a href="#duh">Духовые</a></li>
+                <li class="breadcrumb-item"><a href="#udr">Ударные</a></li>
+            </ul>
+        </div>
+    </div>
+    <div id="duh" class="container mt-5">
+        <div class="row">
+            <div class="p-5 text-center bg-white text-dark">
+                <h1>Духовые музыкальные инструменты</h1>
+                <p>Духовые музыкальные инструменты — музыкальные инструменты, источником звука в которых является колеблющийся столб воздуха, находящийся в трубке инструмента.</p>
+            </div>
+            <table class="table table-borderless">
+                <thead>
+                    <tr>
+                        <th>Медные духовые</th>
+                        <th>Деревянные духовые</th>
+                    </tr>
+                </thead>
+                <tbody text-left>
+                    <tr>
+                        <td>Медные духовые инструменты — группа духовых музыкальных инструментов, относящихся к амбушюрным (или мундштучным) музыкальным инструментам, то есть колебания создаются губами музыканта. Высота звука регулируется положением губ (амбушюром), силой выдуваемого воздуха и нажатием на клапаны (вентили), открывающие и закрывающие дополнительные трубки инструмента.</td>
+                        <td>Деревянные духовые инструменты — группа духовых музыкальных инструментов, принцип игры на которых основывается на посыле направленной струи воздуха в специальное отверстие и для регулировки высоты звучания закрывания специальных отверстий клапанами.</td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="col-sm-5">
+                <h2>Некоторые представители духовых</h2>
+                <div id="accordion2">
+                    <div class="card">
+                        <div class="card-header">
+                            <a class="btn" data-bs-toggle="collapse" href="#collapseSeven">
+                                Труба
+                            </a>
+                        </div>
+                        <div id="collapseSeven" class="collapse show" data-bs-parent="#accordion2">
+                            <div class="card-body">
+                                медный духовой музыкальный инструмент альтово-сопранового регистра, самый высокий по звучанию среди медных духовых. С древнейших времён натуральная труба использовалась в качестве сигнального инструмента, примерно с XVII века вошла в состав оркестра. С изобретением механизма вентилей труба получила полный хроматический звукоряд и с середины XIX века стала полноценным инструментом классической музыки. Обладает ярким, блестящим тембром, используется как сольный инструмент или в симфоническом и духовом оркестрах, а также в джазе и других жанрах.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header">
+                            <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseEight">
+                                Туба
+                            </a>
+                        </div>
+                        <div id="collapseEight" class="collapse" data-bs-parent="#accordion2">
+                            <div class="card-body">
+                                широкомензурный медный духовой музыкальный инструмент, самый низкий по регистру. Басовая разновидность бюгельгорна. Туба обладает суровым, массивным тембром в нижнем регистре, плотным и насыщенным в среднем регистре, а также мягким и певучим тембром в верхнем. Используется в основном в симфоническом и духовом оркестрах, где ей принадлежит роль басового инструмента в группе медных духовых. Все чаще используется в джазовой, а также камерной музыке.
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header">
+                                <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseNine">
+                                    Флейта
+                                </a>
+                            </div>
+                            <div id="collapseNine" class="collapse" data-bs-parent="#accordion2">
+                                <div class="card-body">
+                                    лабиальный духовой музыкальный инструмент, в котором первичным источником колебаний является воздушная струя, рассекающаяся о край стенки инструмента, называемого лабиум (лат. ... Один из древнейших музыкальных инструментов. Относится к группе деревянных духовых.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header">
+                                <a class="btn" data-bs-toggle="collapse" href="#collapseTen">
+                                    Кларнет
+                                </a>
+                            </div>
+                            <div id="collapseTen" class="collapse" data-bs-parent="#accordion2">
+                                <div class="card-body">
+                                    язычковый деревянный духовой музыкальный инструмент с одинарной тростью. Был изобретён около 1700 года в Нюрнберге, в музыке активно используется со второй половины XVIII века. Применяется в самых разнообразных музыкальных жанрах и составах: в качестве сольного инструмента, в камерных ансамблях, симфонических и духовых оркестрах, народной музыке, на эстраде и в джазе. Кларнет обладает широким диапазоном, тёплым, мягким тембром и предоставляет исполнителю широкие выразительные возможности.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header">
+                                <a class="btn" data-bs-toggle="collapse" href="#collapseEleven">
+                                    Гобой
+                                </a>
+                            </div>
+                            <div id="collapseEleven" class="collapse" data-bs-parent="#accordion2">
+                                <div class="card-body">
+                                    язычковый деревянный духовой музыкальный инструмент сопранового регистра, представляющий собой трубку конической формы с системой клапанов и двойной тростью (язычком). Современный вид гобой приобрёл в первой половине XVIII века. Инструмент обладает певучим, однако несколько гнусавым, а в верхнем регистре — резким тембром. В 1989 году занесён в книгу рекордов Гиннеса как самый сложный инструмент.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-7 mt-5">
+                <!-- Carousel -->
+                <div id="demo2" class="carousel slide" data-bs-ride="carousel">
+                    <!-- Indicators/dots -->
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#demo2" data-bs-slide-to="0" class="active"></button>
+                        <button type="button" data-bs-target="#demo2" data-bs-slide-to="1"></button>
+                        <button type="button" data-bs-target="#demo2" data-bs-slide-to="2"></button>
+                        <button type="button" data-bs-target="#demo2" data-bs-slide-to="3"></button>
+                        <button type="button" data-bs-target="#demo2" data-bs-slide-to="4"></button>
+                    </div>
+                    <!-- The slideshow/carousel -->
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="img/11.jpg" alt="Los Angeles" class="d-block" style="width:100%">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/12.jpeg" alt="Chicago" class="d-block" style="width:100%">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/13.jpeg" alt="New York" class="d-block" style="width:100%">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/14.jpg" alt="Ne" class="d-block" style="width:100%">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/15.jpg" alt="York" class="d-block" style="width:100%">
+                        </div>
+                    </div>
+                    <!-- Left and right controls/icons -->
+                    <button class="carousel-control-prev" type="button" data-bs-target="#demo2" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#demo2" data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="container mt-3">
+            <ul class="breadcrumb">
+                <li class="breadcrumb-item"><a href="#str">Струнные</a></li>
+                <li class="breadcrumb-item active">Духовые</li>
+                <li class="breadcrumb-item"><a href="#udr">Ударные</a></li>
+            </ul>
+        </div>
+    </div>
+    <div id="udr" class="container mt-5">
+        <div class="row">
+            <div class="p-5 text-center bg-white text-dark">
+                <h1>Ударные музыкальные инструменты</h1>
+                <p>Самое многочисленное семейство музыкальных инструментов. Ударные подразделяются на 3 основных вида:</p>
+            </div>
+            <table class="table table-borderless">
+                <thead>
+                    <tr>
+                        <th>С неопределенной высотой звучания, среди них:</th>
+                        <th>С определённой высотой звучания:</th>
+                        <th>Клавишные ударные:</th>
+                    </tr>
+                </thead>
+                <tbody text-left>
+                    <tr>
+                        <td>Инструменты с мембраной: барабаны, бубны, гавалы, гоша нагара, думбек, дарбука и пр. Инструменты с самозвучащим корпусом: треугольники, тарелки и гонги, кастаньеты, различные бубенцы, шейкеры и мараки, деревянные коробочки, флексатон и т. д.</td>
+                        <td>ксилофон, вибрафон, маримба, колокольчики, том числе колокола, литавры, некоторые разновидности ковбеллов, вудблоков, гонгов и др.</td>
+                        <td>челеста и другие подобные инструменты, предназначенные для исполнения отдельных нот и различных мелодий.</td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="col-sm-5">
+                <h2>Некоторые представители ударных</h2>
+                <div id="accordion3">
+                    <div class="card">
+                        <div class="card-header">
+                            <a class="btn" data-bs-toggle="collapse" href="#collapse11">
+                                Фортепиано
+                            </a>
+                        </div>
+                        <div id="collapse11" class="collapse show" data-bs-parent="#accordion3">
+                            <div class="card-body">
+                                струнный ударно-клавишный музыкальный инструмент.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header">
+                            <a class="collapsed btn" data-bs-toggle="collapse" href="#collapse12">
+                                Рояль
+                            </a>
+                        </div>
+                        <div id="collapse12" class="collapse" data-bs-parent="#accordion3">
+                            <div class="card-body">
+                                музыкальный инструмент, основной вид концертного фортепиано, в котором струны, дека и механическая часть расположены горизонтально, корпус имеет крыловидную форму, а звуки издаются ударами войлочных молоточков по струнам при помощи клавиш. В отличие от пианино, звучание рояля более выразительно и насыщенно по тембру, клавиатура более чувствительна, игровые качества более виртуозны, и диапазон градаций изменения звука — шире.
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header">
+                                <a class="collapsed btn" data-bs-toggle="collapse" href="#collapse13">
+                                    Орган
+                                </a>
+                            </div>
+                            <div id="collapse13" class="collapse" data-bs-parent="#accordion3">
+                                <div class="card-body">
+                                    клавишный духовой музыкальный инструмент. Большие концертные органы превосходят по габаритам все прочие музыкальные инструменты.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header">
+                                <a class="btn" data-bs-toggle="collapse" href="#collapse14">
+                                    Барабан
+                                </a>
+                            </div>
+                            <div id="collapse14" class="collapse" data-bs-parent="#accordion3">
+                                <div class="card-body">
+                                    музыкальный инструмент из семейства ударных.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-7 mt-5">
+                <!-- Carousel -->
+                <div id="demo3" class="carousel slide" data-bs-ride="carousel">
+                    <!-- Indicators/dots -->
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#demo3" data-bs-slide-to="0" class="active"></button>
+                        <button type="button" data-bs-target="#demo3" data-bs-slide-to="1"></button>
+                        <button type="button" data-bs-target="#demo3" data-bs-slide-to="2"></button>
+                        <button type="button" data-bs-target="#demo3" data-bs-slide-to="3"></button>
+                    </div>
+                    <!-- The slideshow/carousel -->
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="img/21.jpg" alt="Logeles" class="d-block" style="width:100%">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/22.jpg" alt="Chago" class="d-block" style="width:100%">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/23.jpg" alt="Nork" class="d-block" style="width:100%">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/24.jpg" alt="Newrk" class="d-block" style="width:100%">
+                        </div>
+                    </div>
+                    <!-- Left and right controls/icons -->
+                    <button class="carousel-control-prev" type="button" data-bs-target="#demo3" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#demo3" data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="container mt-3">
+            <ul class="breadcrumb">
+                <li class="breadcrumb-item"><a href="#str">Струнные</a></li>
+                <li class="breadcrumb-item"><a href="#duh">Духовые</a></li>
+                <li class="breadcrumb-item active">Ударные</li>
+            </ul>
+        </div>
+    </div>
+    <div class="mt-3 p-2 text-center bg-info text-dark">
+        <h1>Отправить сообщение</h1>
+    </div>
+    <div class="mt-0 pb-5 p-4 bg-dark text-white text-center">
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="row">
+                    <div class="col-sm-5">
+                        <label for="sel1" class="form-label">Оценить</label>
+                        <div class="input-group mt-3 mb-3">
+                            <select class="form-select" id="sel1" name="sellist1">
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 mt-5">
+                        <input type="text" class="form-control" placeholder="Имя">
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="container mt-0">
+                    <h5>Что практикуешь?</h5>
+                    <div class="form-check">
+                        <input type="checkbox" class="form-check-input" id="check1" name="option1" value="something">
+                        <label class="form-check-label" for="check1">Струнные</label>
+                    </div>
+                    <div class="form-check">
+                        <input type="checkbox" class="form-check-input" id="check2" name="option2" value="something">
+                        <label class="form-check-label" for="check2">Духовые</label>
+                    </div>
+                    <div class="form-check">
+                        <input type="checkbox" class="form-check-input" id="check3" name="option3" value="something">
+                        <label class="form-check-label" for="check3">Ударные</label>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-1">
+                <div class="container mt-0">
+                    <h5>Пол</h5>
+                    <div class="form-check">
+                        <input type="radio" class="form-check-input" id="radio1" name="optradio" value="option1" checked>
+                        <label class="form-check-label" for="radio1">муж</label>
+                    </div>
+                    <div class="form-check">
+                        <input type="radio" class="form-check-input" id="radio2" name="optradio" value="option2">
+                        <label class="form-check-label" for="radio2">жен</label>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-2">
+                <div class="container mt-5">
+                    <button type="button" class="btn btn-primary">Отправить)</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
